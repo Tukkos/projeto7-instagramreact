@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body > div {
+    background-color: #e5e5e5;
+    font-family: Roboto;
+  }
+  
+  h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #262626;
+  }
+  
+  h3 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #8e8e8e;
+  }
+  
+  h4 {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #c7c7c7;
+    margin-top: 20px;
+  }
+  
+  ion-icon {
+    font-size: 23px;
+    color: #000000;
+    margin: auto 15px;
+  }
+  
+  .barra-fundo-mobile {
+    display: none;
+  }
+  
+  .barra-fundo {
+    width: 100%;
+    height: 54px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .barra {
+    width: 935px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .barrinha {
+    height: 22px;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    padding-right: 12.75px;
+  }
+  
+  .barra > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .barra > img {
+    height: 29px;
+    width: 103px;
+  }
+  
+  .pesquisa {
+    height: 29px;
+    width: 215px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .conteudo {
+    width: 100vw;
+    max-width: 935px;
+    margin-top: 54px;
+    margin-inline: auto;
+  }
+  
+  .coluna-1 {
+    width: 614px;
+    margin-top: 25px;
+  }
+  
+  .stories-box-mobile {
+    display: none;
+  }
+  
+  .stories-box {
+    height: 118px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    position: relative;
+  }
+  
+  .stories-box > div {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .stories {
+    display: flex;
+    flex-direction: column;
+    margin: auto 14px;
+    position: relative;
+  }
+  
+  .stories > h3 {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .new-story {
+    height: 66px;
+    width: 66px;
+    background-color: none;
+    position: relative;
+  }
+  
+  .story {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .setinha {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 44px;
+    right: -10px;
+    z-index: 2;
+  }
+  
+  .coluna-posts > div {
+    width: 614px;
+    height: 749px;
+    margin: 30px 0;
+  }
+  
+  .barra-superior {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+  }
+  
+  .barra-superior div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .barra-superior img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 15px 15px;
+  }
+  
+  .imagem {
+    width: 614px;
+    height: 614px;
+  }
+  
+  .barra-inferior {
+    height: 76px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -4px;
+  }
+  
+  .barra-inferior img {
+    height: 20px;
+    margin: 15px;
+  }
+  
+  .linha1 {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .linha2 {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .linha2 > h2 {
+    line-height: 300px;
+  }
+  
+  .linha2 > img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  
+  .sidebar {
+    width: 293px;
+    margin: 40px 0 0 642px;
+    position: fixed;
+    top: 54px;
+    left: center;
+  }
+  
+  .perfil {
+    display: flex;
+  }
+  
+  .perfil > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+  }
+  
+  .perfil > img {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+  }
+  
+  .sugestao {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .outro-perfil {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .outro-perfil img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .outro-perfil > div {
+    display: flex;
+  }
+  
+  .outro-perfil > h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #139ef2;
+    margin: 15px 0;
+  }
+  
+  .infbar {
+    display: none;
+  }
+  
+  @media (max-width: 935px) {
+    .barra-fundo {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .sidebar {
+      display: none;
+      overflow: hidden;
+    }
+  
+    .coluna-1 {
+      margin-inline: auto;
+    }
+  }
+  
+  @media (max-width: 614px) {
+    .barra-fundo {
+      display: none;
+    }
+  
+    .barra-fundo-mobile {
+      width: 100%;
+      height: 54px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  
+    .stories-box {
+      display: none;
+    }
+  
+    .stories-box-mobile {
+      display: initial;
+      width: 100%;
+      height: 118px;
+      position: relative;
+    }
+  
+    .stories-box-mobile > div {
+      margin-top: 15px;
+      display: flex;
+      justify-content: flex-start;
+      overflow: hidden;
+    }
+  
+    .coluna-posts > div {
+      width: 100%;
+      margin: 30px 0 0 0;
+    }
+  
+    .imagem {
+      width: 100%;
+      height: auto;
+    }
+  
+    .barra-superior {
+      width: 100%;
+    }
+  
+    .barra-inferior {
+      width: 100%;
+    }
+  
+    .infbar {
+      height: 54px;
+      width: 100%;
+      background-color: #dbdbdb;
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+    }
+  }
+  

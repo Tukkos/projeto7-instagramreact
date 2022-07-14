@@ -10,12 +10,9 @@ function Story(props) {
 
 export default function StoriesBox() {
     return (
-        <div class="stories-box">
-            <div>
-                <Story userImg="aaa" userName="aaa" />
-                <Story userImg="aaa" userName="aaa" />
-            </div>
-            <ion-icon name="chevron-forward-circle" class="setinha"></ion-icon>
+        <div class="stories-box-mobile">
+            <Story userImg="aaa" userName="aaa" />
+            <Story userImg="aaa" userName="aaa" />
         </div>
     );
 }

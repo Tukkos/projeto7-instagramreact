@@ -1,17 +1,5 @@
 function BarraInferior(props) {
     return (
-        <div class="barra-superior">
-            <div>
-                <img src={userImg} alt="" />
-                <h2>{userName}</h2>
-            </div>
-            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-        </div>
-    );
-}
-
-function BarraSuperior(props) {
-    return (
         <div class="barra-inferior">
             <div class="linha1">
                 <div>
@@ -32,11 +20,23 @@ function BarraSuperior(props) {
     );
 }
 
+function BarraSuperior(props) {
+    return (
+        <div class="barra-superior">
+            <div>
+                <img src="https://www.gamereactor.pt/media/46/borderlands3recension_2964633b.png" alt="" />
+                <h2>notSoTiny</h2>
+            </div>
+            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+        </div>
+    );
+}
+
 function Posts(props) {
     return (
         <div>
-            <BarraSuperior userImg="" userName="" />
-            <img src={props.postImg} alt="" class="imagem" />
+            <BarraSuperior userImg="https://www.gamereactor.pt/media/46/borderlands3recension_2964633b.png" userName="notSoTiny" />
+            <img src="https://www.gamereactor.pt/media/46/borderlands3recension_2964633b.png" alt="" class="imagem" />
             <BarraInferior />
         </div>
     );

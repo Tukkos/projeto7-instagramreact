@@ -5,7 +5,7 @@ export default function TopBar() {
                 <div>
                     <ion-icon name="logo-instagram"></ion-icon>
                     <p class="barrinha"></p>
-                    <img src="./Imagens/logo.png" alt="" />
+                    <img src="https://q46bt2.csb.app/Imagens/logo.png" alt="" />
                 </div>
                 <p class="pesquisa">Pesquisa</p>
                 <div>

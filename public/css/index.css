@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-  body > div {
+  body {
     background-color: #e5e5e5;
     font-family: Roboto;
   }

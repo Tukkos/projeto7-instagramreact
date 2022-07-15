@@ -1,13 +1,13 @@
-import TopBar from "./TopBar";
-// import TopBarMobile from "./TopBarMobile";
-// import Conteudo from "./Conteudo";
+import TopBar from "./TopBar/TopBar";
+import TopBarMobile from "./TopBar/TopBarMobile";
+import Content from "./Content/Content";
 
 export default function App() {
     return (
         <div>
             <TopBar />
-            {/* <TopBarMobile /> */}
-            {/* <Conteudo /> */}
+            <TopBarMobile />
+            <Content />
         </div>
     );
 }

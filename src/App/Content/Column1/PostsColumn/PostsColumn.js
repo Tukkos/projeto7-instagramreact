@@ -22,7 +22,7 @@ function BarraSuperior(props) {
                 <ion-icon name="bookmark-outline"></ion-icon>
             </div>
             <div class="linha2">
-                <img src="./Imagens/axton.png" alt="">
+                <img src="./Imagens/axton.png" alt="" />
                 <h3>Curtido por &#160</h3>
                 <h2>commando &#160</h2>
                 <h3>e &#160</h3>
@@ -36,7 +36,7 @@ function Posts(props) {
     return (
         <div>
             <BarraSuperior userImg="" userName="" />
-            <img src={props.postImg} alt="" class="imagem"></img>
+            <img src={props.postImg} alt="" class="imagem" />
             <BarraInferior />
         </div>
     );

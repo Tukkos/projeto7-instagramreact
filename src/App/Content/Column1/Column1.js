@@ -1,6 +1,6 @@
-import StoriesBox from "./StoriesBox";
-import StoriesBoxMobile from "./StoriesBoxMobile";
-import PostsColumn from "./PostsColumn";
+import StoriesBox from "./StoriesBox/StoriesBox";
+import StoriesBoxMobile from "./StoriesBox/StoriesBoxMobile";
+import PostsColumn from "./PostsColumn/PostsColumn";
 
 export default function Column1() {
     return (

@@ -1,4 +1,4 @@
-import Story from "./Story";
+import Story from "./Story"
 
 export default function StoriesBox() {
     const users = [{id: 1, userName: "notSoTiny", userImg:"https://q46bt2.csb.app/Imagens/tina.png.jpg"},

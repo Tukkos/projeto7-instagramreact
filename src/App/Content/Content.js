@@ -1,6 +1,6 @@
 import Column1 from "./Column1/Column1";
-import Column2Sidebar from "./Column2Sidebar";
-import InferiorBarMobile from "./InferiorBarMobile";
+import Column2Sidebar from "./Column2Sidebar/Column2Sidebar";
+import InferiorBarMobile from "./InferiorBarMobile/InferiorBarMobile";
 
 export default function Conteudo() {
     return (

@@ -1,10 +1,10 @@
 export default function Column2Sidebar() {
     return (
         <div class="sidebar">
-            <Perfil />
+            {/* <Perfil />
             <Sugestion />
             <Perfis />
-            <End />
+            <End /> */}
         </div>
     );
 }

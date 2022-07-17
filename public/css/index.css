@@ -41,6 +41,14 @@
     color: #000000;
     margin: auto 15px;
   }
+
+  .heart-icon {
+    color: crimson;
+  }
+
+  .escondido {
+    display: none;
+  }
   
   .barra-fundo-mobile {
     display: none;
@@ -323,7 +331,7 @@
     }
   
     .barra-fundo-mobile {
-      width: 100%;
+      width: 100vw;
       height: 54px;
       background-color: #ffffff;
       display: flex;
@@ -341,7 +349,7 @@
   
     .stories-box-mobile {
       display: initial;
-      width: 100%;
+      width: 100vw;
       height: 118px;
       position: relative;
     }
@@ -352,28 +360,32 @@
       justify-content: flex-start;
       overflow: hidden;
     }
+
+    .stories {
+      margin-top: 15px;
+    }
   
     .coluna-posts > div {
-      width: 100%;
+      width: 100vw;
       margin: 30px 0 0 0;
     }
   
     .imagem {
-      width: 100%;
+      width: 100vw;
       height: auto;
     }
   
     .barra-superior {
-      width: 100%;
+      width: 100vw;
     }
   
     .barra-inferior {
-      width: 100%;
+      width: 100vw;
     }
   
     .infbar {
       height: 54px;
-      width: 100%;
+      width: 100vw;
       background-color: #dbdbdb;
       display: flex;
       justify-content: space-between;

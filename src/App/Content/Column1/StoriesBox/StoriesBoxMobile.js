@@ -14,7 +14,6 @@ export default function StoriesBox() {
             <div>
                 {users.map((story) => (<Story userName={story.userName} userImg={story.userImg} />))}
             </div>
-            <ion-icon name="chevron-forward-circle" class="setinha"></ion-icon>
         </div>
     );
 }

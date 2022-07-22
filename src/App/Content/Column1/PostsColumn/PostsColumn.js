@@ -28,7 +28,20 @@ const posts = [{id: 1,
 export default function PostColumn() {
     return (
         <div class="coluna-posts">
-            {posts.map((post) => (<Posts postsInfo={post} />))}
+            {posts.map((post) => {
+                return (
+                    <Posts
+                        key={post.id}
+                        userName={post.userName}
+                        userImg={post.userImg}
+                        postImg={post.postImg}
+                        likedBy={post.likedBy}
+                        likedByImg={post.likedByImg}
+                        likes={post.likes}
+                    />
+                )
+                
+            })}
         </div>
     );
 }
